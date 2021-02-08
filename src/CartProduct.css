@@ -1,0 +1,42 @@
+.cartProduct {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.cartProduct__image {
+  object-fit: contain;
+  width: 180px;
+  /* Change this in order to make the product center with title!! */
+  height: 180px;
+}
+
+.cartProduct__info {
+  padding-left: 20px;
+}
+
+.cartProduct__title {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.cartProduct__rating {
+  display: flex;
+}
+
+.cartProduct__info > button {
+  border: 1px solid;
+  margin-top: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cartProduct:hover {
+  transform: scale(1.03);
+  transition: 200ms;
+  border: 1px solid gray;
+  padding: 10px;
+}

@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  flex: 0.3;
+  height: 70px;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  /* width: 100vw; */
+  width: 100%;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+  align-items: center;
+  color: white;
+}
+.navbar__logo {
+  max-width: 100px;
+  max-height: 70px;
+}
+.navbar__content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 100%;
+  flex: 0.9;
+}
+
+.navbar__content > ul {
+  display: flex;
+  list-style: none;
+  flex: 0.2;
+}
+.navbar__content > ul > li {
+  margin-right: 30px;
+}
+.navbar__listItems {
+  display: flex;
+  margin-right: 50px;
+}
+.navbar__listItems:hover {
+  color: cyan;
+}
